@@ -17,4 +17,3 @@ class ActorRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
 class ActorRetrieveView(generics.RetrieveAPIView):
     queryset = Actors.objects.all()
     serializer_class = ActorsSerializer
-

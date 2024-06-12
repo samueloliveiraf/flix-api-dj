@@ -37,7 +37,8 @@ THIRD_APPS = [
 PROJECT_APPS = [
     'apps.accounts.apps.AccountsConfig',
     'apps.actors.apps.ActorsConfig',
-    'apps.genres.apps.GenresConfig'
+    'apps.genres.apps.GenresConfig',
+    'apps.movies.apps.MoviesConfig'
 ]
 
 INSTALLED_APPS = PROJECT_APPS + THIRD_APPS + DEFAULT_APPS
